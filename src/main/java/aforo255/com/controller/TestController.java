@@ -10,6 +10,6 @@ public class TestController {
 
 	@GetMapping("/test")
 	public String TestFirstJob() {
-		return "Welcome to MasterDevops |Tomcat v1345 | Ansible , AFORO255" + new Date();
+		return "Welcome to MasterDevops |Tomcat v1345 | Ansible , AFORO255 - La Paz Bolivia " + new Date();
 	}
 }
